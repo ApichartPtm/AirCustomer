@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "55015106621",
+    "firebase_url": "https://airconditionerservice-1eda8.firebaseio.com",
+    "project_id": "airconditionerservice-1eda8",
+    "storage_bucket": "airconditionerservice-1eda8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55015106621:android:f11cdfea37ee199544a254",
+        "android_client_info": {
+          "package_name": "th.ac.airconditionerservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55015106621-30458430ei6anlnab245q85nk7n8tk3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrFMSIS9m1WkP14zlztvdFD4p_96NUxUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55015106621-30458430ei6anlnab245q85nk7n8tk3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

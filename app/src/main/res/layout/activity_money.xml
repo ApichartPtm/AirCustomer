@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    tools:context=".user.MoneyActivity">
+
+    <Button
+        android:id="@+id/button_select_photo"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="32dp"
+        android:text="select photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/selectphoto_imageview"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="@id/button_select_photo"
+        app:layout_constraintEnd_toEndOf="@id/button_select_photo"
+        app:layout_constraintStart_toStartOf="@id/button_select_photo"
+        app:layout_constraintTop_toTopOf="@id/button_select_photo" />
+
+    <Button
+        android:id="@+id/button_send_slipe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background_complete"
+        android:text="ส่งสลิป"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectphoto_imageview" />
+
+    <Button
+        android:id="@+id/button_back_money"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_background_selected"
+        android:text="ย้อนหลับ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_send_slipe" />
+</androidx.constraintlayout.widget.ConstraintLayout>
